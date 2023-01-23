@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+    
+}
+
+header{
+    padding: 20px 0%;
+    height: 1px;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100%;
+}
+
+.menu{
+    text-align: right;
+
+    
+}
+
+.menu a{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    width: auto;
+    left: 500px;
+}
+
+.logo{
+    width: 320px;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+}
+
+
+
+section.about{
+    position: relative;
+    height: calc(100% - 500px);
+
+}
+
+.extras{
+    position:relative;
+    bottom: -128px;
+    right: -850px;
+    width: 800px;
+    height: 800px;
+    background-color: rgb(49, 85, 49);
+    border-radius: 50%;
+    
+
+
+}
+
+.extras img{
+    position: relative;
+    bottom: 10px;
+    left: -65px;
+    height: 450px;
+    width: 450px;
+}
+
+.social-media{
+    position:relative;
+    bottom: 155px;
+    left: 1250px;
+    max-width: 30px;
+    max-height: 30px;
+    
+}
+
+.social-media img{
+    position: relative;
+    display: block;
+    width: 25px;
+    margin: 20px 0;
+}
+
+.texto-sobre h1{
+    positon:relative;
+    font-weight: 900;
+    font-size: xx-large;
+    font-size: 50px;
+    color: #fff;
+    bottom: 330px;
+    
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.texto-sobre{
+    position: relative;
+    bottom:770px;
+    margin: 55px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    max-width: 600px ;
+    
+    
+}
+
+.texto-sobre button{
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    border:0;
+    background-color: rgb(25, 119, 25);
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 15px;
+
+}
+
+.texto-sobre button:hover{
+    background-color: rgb(49, 85, 49);
+}
+
+.texto-sobre p{
+    position: relative;
+    top: 20px;
+    bottom: 15px;
+}
+
+.fixed{
+    background-color: rgb(34, 34, 34);
+}

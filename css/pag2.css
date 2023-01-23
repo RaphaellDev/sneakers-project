@@ -96,10 +96,9 @@ section.about{
 }
 
 .texto-sobre h1{
-    positon:relative;
     font-weight: 900;
     font-size: xx-large;
-    font-size: 50px;
+    font-size: 25px;
     color: #fff;
     bottom: 330px;
     
@@ -153,3 +152,11 @@ html, body{
 .fixed{
     background-color: rgb(34, 34, 34);
 }
+
+@media only screen and(max-width:600px){
+    .extras{
+        visibility: hidden;
+    }
+}
+
+
